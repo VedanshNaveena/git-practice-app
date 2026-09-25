@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customers - Git Practice Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>Customers</h1><nav>
+  <a href="index.html">Home</a>
+  <a href="customers.html">Customers</a>
+  <a href="products.html">Products</a>
+</nav></header>
+<main>
+  <section class="card">
+    <h2>Add Customer</h2>
+    <form id="customerForm">
+      <label for="customerName">Name</label>
+      <input id="customerName" type="text" placeholder="Enter customer name">
+      <label for="customerEmail">Email</label>
+      <input id="customerEmail" type="email" placeholder="Enter email">
+      <button type="submit">Add Customer</button>
+      <p id="message" class="message"></p>
+    </form>
+  </section>
+  <section class="card">
+    <h2>Customer List</h2>
+    <input id="customerSearch" type="text" placeholder="Search customers">
+    <table id="customerTable">
+      <thead><tr><th>Name</th><th>Email</th></tr></thead>
+      <tbody>
+        <tr><td>Anita Rao</td><td>anita@example.com</td></tr>
+        <tr><td>Rahul Kumar</td><td>rahul@example.com</td></tr>
+        <tr><td>Meena Shah</td><td>meena@example.com</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>

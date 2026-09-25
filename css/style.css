@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #222; }
+header { background: #243447; color: white; padding: 20px; }
+header h1 { margin: 0 0 14px; }
+nav a { color: white; margin-right: 18px; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 900px; margin: 30px auto; padding: 0 16px; }
+.card { background: white; padding: 22px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input { width: 100%; padding: 10px; margin: 7px 0 12px; border: 1px solid #bbb; border-radius: 4px; }
+button { padding: 10px 16px; border: 0; border-radius: 4px; background: #243447; color: white; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #ddd; }
+.message { font-weight: bold; min-height: 20px; }
