@@ -36,4 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   enableSearch("customerSearch", "customerTable");
   enableSearch("productSearch", "productTable");
+  enableSearch("orderSearch", "orderTable");
+  enableSearch("quoteSearch", "quoteTable");
 });
