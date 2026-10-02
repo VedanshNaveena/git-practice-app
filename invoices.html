@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orders - Git Practice Shop</title>
+  <title>Invoices - Git Practice Shop</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header><h1>Orders</h1><nav>
+<header><h1>Invoices</h1><nav>
   <a href="index.html">Home</a>
   <a href="customers.html">Customers</a>
   <a href="products.html">Products</a>
@@ -17,14 +17,14 @@
 </nav></header>
 <main>
   <section class="card">
-    <h2>Order List</h2>
-    <input id="orderSearch" type="text" placeholder="Search orders">
-    <table id="orderTable">
-      <thead><tr><th>Order ID</th><th>Customer</th><th>Status</th></tr></thead>
+    <h2>Invoice List</h2>
+    <input id="invoiceSearch" type="text" placeholder="Search invoices">
+    <table id="invoiceTable">
+      <thead><tr><th>Invoice ID</th><th>Customer</th><th>Amount</th><th>Status</th></tr></thead>
       <tbody>
-        <tr><td>ORD-1001</td><td>Anita Rao</td><td>Completed</td></tr>
-        <tr><td>ORD-1002</td><td>Rahul Kumar</td><td>Processing</td></tr>
-        <tr><td>ORD-1003</td><td>Meena Shah</td><td>Pending</td></tr>
+        <tr><td>INV-1001</td><td>Anita Rao</td><td>₹2,398</td><td>Paid</td></tr>
+        <tr><td>INV-1002</td><td>Rahul Kumar</td><td>₹1,499</td><td>Unpaid</td></tr>
+        <tr><td>INV-1003</td><td>Meena Shah</td><td>₹1,099</td><td>Overdue</td></tr>
       </tbody>
     </table>
   </section>

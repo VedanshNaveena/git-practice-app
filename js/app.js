@@ -38,4 +38,5 @@ document.addEventListener("DOMContentLoaded", () => {
   enableSearch("productSearch", "productTable");
   enableSearch("orderSearch", "orderTable");
   enableSearch("quoteSearch", "quoteTable");
+  enableSearch("invoiceSearch", "invoiceTable");
 });
